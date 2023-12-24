@@ -1,0 +1,187 @@
+.header{
+  padding-top: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 130px;
+  .block1 {
+    background-color: #fcfcfc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 40px;
+    border: 0;
+    border-radius: 10px;
+    height: 200px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+
+      font-family: "Calibri Light", sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+      color: #514f5d;
+    }
+  }
+  .block2 {
+      background-color: #fcfcfc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      margin-left: 40px;
+      border: 0;
+      border-radius: 10px;
+      height: 200px;
+      width: 650px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .header_text {
+        padding: 20px;
+        font-family: "Calibri Light", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: #514f5d;
+      }
+  }
+}
+.block3{
+  margin-left: 17%;
+  height: 800px;
+  width: 70%;
+  .header_photo{
+    margin: 5px;
+    width: 300px;
+    height: 350px;
+    border: 0;
+    border-radius: 15px;
+  }
+}
+.main_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+ .main_section_1{
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   margin-right: 40px;
+   border:0;
+   border-radius: 10px;
+   background-color: #fcfcfc;
+   width: 40%;
+   height: 680px;
+   h3{
+     font-family: "Calibri Light", sans-serif;
+     font-weight: 500;
+     font-size: 20px;
+     color: #514f5d;
+     margin-left: 5%;
+   }
+   .text{
+     font-family: "Calibri Light", sans-serif;
+     padding: 5px;
+     font-weight: 500;
+     font-size: 17px;
+     color: #514f5d;
+   }
+   .services_photo{
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+     border:0;
+     border-radius: 10px;
+     margin-left: 10%;
+     height: 450px;
+     width: 450px;
+   }
+ }
+  .main_section_2{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border:0;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+    width: 40%;
+    height: 680px;
+    h3{
+      font-family: "Calibri Light", sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      color: #514f5d;
+      margin-left: 5%;
+    }
+    .services_photo2{
+      border:0;
+      height: 300px;
+      width: 350px;
+      margin-left: 5%;
+
+    }
+    .accordion {
+      width: 90%;
+      max-width: 900px;
+      margin: 2rem auto;
+      overflow: auto;
+      height: 225px;
+
+      &-item {
+        background-color: #fff;
+        color: #111;
+        margin: 1rem 0;
+        border-radius: 0.5rem;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+
+        &-header {
+          padding: 0.5rem 3rem 0.5rem 1rem;
+          min-height: 2.5rem;
+          line-height: 1.25rem;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+          position: relative;
+          cursor: pointer;
+
+          &::after {
+            content: "\002B";
+            font-size: 2rem;
+            position: absolute;
+            right: 1rem;
+          }
+
+          &.active::after {
+            content: "\2212";
+          }
+        }
+
+        &-body {
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.2s ease-out;
+
+          &-content {
+            padding: 1rem;
+            line-height: 1.5rem;
+            border-top: 1px solid;
+            border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.btn{
+  display: block;
+  margin: 0 auto;
+  border:0;
+  border-radius: 15px;
+  width: 200px;
+  height: 40px;
+  font-family: "Calibri Light", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  background-color: #e69996;
+  color: #fcfcfc;
+  margin-bottom: 50px;
+}
+.btn:hover {
+  transform: scale(1.1);
+}

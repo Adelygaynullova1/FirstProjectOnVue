@@ -1,0 +1,123 @@
+.header{
+    margin-left: 8%;
+    padding-top: 150px;
+    width: 35%;
+    height: 150px;
+    margin-bottom: 180px;
+    h1{
+        font-family: "Calibri Light", sans-serif;
+        font-weight: 600;
+        font-size: 50px;
+        color: #514f5d;
+
+    }
+    .text{
+        font-family: "Calibri Light", sans-serif;
+
+        font-weight: 500;
+        font-size: 20px;
+        color: #514f5d;
+        display: inline;
+    }
+}
+.main_section_1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    .photo{
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+        border:0;
+        border-radius: 10px;
+        margin-right: 50px;
+        height: 500px;
+        width: 600px;
+    }
+    .data{
+        width: 30%;
+        height: 450px;
+        .text1{
+            font-family: "Calibri Light", sans-serif;
+            font-weight: 500;
+            font-size: 25px;
+            color: #514f5d;
+            display: inline;
+        }
+        h2{
+            font-family: "Calibri Light", sans-serif;
+            font-weight: 700;
+            font-size: 54px;
+            color: #514f5d;
+        }
+
+    }
+    .btn{
+        z-index: 0;
+        position: absolute;
+        margin-top: 250px;
+        margin-left: 370px;
+        border:0;
+        border-radius: 10px;
+        width: 150px;
+        height: 40px;
+        font-family: "Calibri Light", sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        color: #514f5d;
+    }
+    .btn:hover {
+        transform: scale(1.1);
+    }
+}
+.main_section_2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    .photo2{
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+        border:0;
+        border-radius: 10px;
+        height: 500px;
+        width: 600px;
+    }
+    .data2{
+        width: 30%;
+        height: 450px;
+        margin-right: 50px;
+        .text2{
+            font-family: "Calibri Light", sans-serif;
+            font-weight: 500;
+            font-size: 25px;
+            color: #514f5d;
+            display: inline;
+        }
+        h2{
+            font-family: "Calibri Light", sans-serif;
+            font-weight: 700;
+            font-size: 54px;
+            color: #514f5d;
+        }
+    }
+    .btn2{
+        z-index: 0;
+        position: absolute;
+        margin-top: 250px;
+        margin-right: 930px;
+        border:0;
+        border-radius: 10px;
+        width: 150px;
+        height: 40px;
+        font-family: "Calibri Light", sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        color: #514f5d;
+    }
+    .btn2:hover {
+        transform: scale(1.1);
+    }
+}

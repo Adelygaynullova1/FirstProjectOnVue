@@ -1,0 +1,52 @@
+.cards{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+  border:0;
+  border-radius: 15px;
+  margin-top: 100px;
+  height: 350px;
+  width: 50%;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .photo{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border:0;
+    border-radius: 15px;
+  }
+  .data{
+    .name{
+      margin: 5px;
+      font-family: "Calibri Light", sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      color: #514f5d;
+    }
+    .characterisation{
+      margin: 5px;
+      font-family: "Calibri Light", sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: #514f5d;
+    }
+    .workexperience{
+      margin: 5px;
+      font-family: "Calibri Light", sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      color: #514f5d;
+    }
+    .valuation{
+      margin: 5px;
+      font-family: "Calibri Light", sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      color: #514f5d;
+    }
+  }
+}
